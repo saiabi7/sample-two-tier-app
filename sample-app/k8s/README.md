@@ -11,4 +11,4 @@ This will show the list of subnets associated with the vpc.
 aws ec2 describe-subnets --subnet-ids <subnet id 1> <subnet id 2> <subnet id 3> <subner id 4>   --query "Subnets[*].{SubnetId:SubnetId, AZ:AvailabilityZone}" --output table
 ```
 
-There will total 4 subnets where two subnets will be in each AZ
+There will total 4 subnets where two subnets will be in each AZ. Replace one subnet from each AZ in the ingress.yaml file
