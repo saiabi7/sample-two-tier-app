@@ -10,7 +10,10 @@ eksctl create cluster   --name two-tier-cluster   --version 1.27   --region us-e
 ## Delete the cluster
 
 ```
-eksctl delete cluster --name two-tier-cluster --region us-east-1
+eksctl delete cluster --name demo-cluster --region us-east-1
 ```
+
+
+
 
 
